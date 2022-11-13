@@ -1,0 +1,15 @@
+ ,-----.,--.  ,--.  ,---.  ,--.,--.  ,--. 
+'  .--./|  '--'  | /  O  \ |  ||  ,'.|  | 
+|  |    |  .--.  ||  .-.  ||  ||  |' '  | 
+'  '--'\|  |  |  ||  | |  ||  ||  | `   | 
+ `-----'`--'  `--'`--' `--'`--'`--'  `--'
+
+Use the output of each program as input for the next.
+
+The chain should look like this.
+
+The chain should look like this:
+
+input -> program1 -> program2 -> program3 -> output
+
+then validate using the validator 
