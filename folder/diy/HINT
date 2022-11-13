@@ -1,0 +1,23 @@
+
+,------.      ,--.,--.   ,--.  
+|  .-.  \     |  | \  `.'  /   
+|  |  \  :    |  |  '.    /    
+|  '--'  /.--.|  |.--.|  |.--. 
+`-------' '--'`--''--'`--''--' 
+
+
+You have to make this room yourself.
+
+the folder must have the following structure:
+
+diy:
+	dir1:
+		file1 file2
+	dir2:
+		file1 file3
+
+	validate
+
+To help you part of the room is already created. you have to continue without removing our progress, but deleting junk files.
+
+We believe in you!
