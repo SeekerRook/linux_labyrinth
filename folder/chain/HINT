@@ -12,4 +12,4 @@ The chain should look like this:
 
 input -> program1 -> program2 -> program3 -> output
 
-then validate using the validator 
+then validate using the validator.(Bonus pints if you do it with a single command) 
