@@ -6,7 +6,7 @@
 -dwarf -> vim/nano
 -ghost -> .
 -pacman -> apt
-seeker -> find
+-seeker -> find
 snake -> python
 spiderman -> network
 
