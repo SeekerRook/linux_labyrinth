@@ -1,9 +1,9 @@
 - adam -> man
 - broken_leg -> chmod
-chain -> pipes (|,>>)
-creppe -> grep
-diy -> mkdir, touch, cp, rm
-dwarf -> vim/nano
+-chain -> pipes (|,>>)
+-creppe -> grep
+-diy -> mkdir, touch, cp, rm
+-dwarf -> vim/nano
 pacman -> apt
 seeker -> find
 snake -> python
