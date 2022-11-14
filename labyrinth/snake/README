@@ -6,23 +6,21 @@
 `-----' `--'  `--'`--' `--'`--' '--'`------
 
 
-           /^\/^\
-         _|__|  O|
-\/     /~     \_/ \
- \____|__________/  \
-        \_______      \
-                `\     \                 \
-                  |     |                  \
-                 /      /                    \
-                /     /                       \\
-              /      /                         \ \
-             /     /                            \  \
-           /     /             _----_            \   \
-          /     /           _-~      ~-_         |   |
-         (      (        _-~    _--_    ~-_     _/   |
-          \      ~-____-~    _-~    ~-_    ~-_-~    /
-            ~-_           _-~          ~-_       _-~
-               ~--______-~                ~-___-~
+In this room there is a password protected zip file.
+
+You know the owner is a student in NTUA and the password is their age in this format d-m-y (exc 1-1-1821)
+
+to crack the password you can use a tool John the Ripper. It works like this:
+
+zip2john <name>.zip > hash
+
+john hash --wordlist=<wordlist_file>
 
 
-'
+where <name> is the name of the zip file and <word_list> the file containing possible passwords.
+
+Only problem is we dont have a wordlist.
+
+Can you make a python script to generate one and find the password?
+
+
