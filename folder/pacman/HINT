@@ -1,0 +1,10 @@
+
+in this Challenge you have to split a video into images to find the hidden message!
+
+to do so you need the following packages:
+	youtube-dl
+	ffmpeg
+
+after you install them you can run the script and find the gidden image in the folder.
+
+We encourage you to open the script and see how it works
