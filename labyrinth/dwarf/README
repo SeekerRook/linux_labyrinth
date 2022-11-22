@@ -5,6 +5,6 @@
 |  '--'  /|   ,'.   ||  | |  ||  |\  \ |  |`    
 `-------' '--'   '--'`--' `--'`--' '--'`--' 
 
-there are 2 files, one correct one wrong. Find the DIFFERENCE (using diff) and fix the errors.
+there are 2 files, one correct one wrong. Find the DIFFERENCE (using diff command) and fix the errors.
 
 After that use ./validate to get the flag
