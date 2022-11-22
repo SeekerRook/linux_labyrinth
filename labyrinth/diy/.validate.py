@@ -14,14 +14,17 @@ intended = [".",
             "./dir2",
             "./dir2/file1",
             "./dir2/file3",
-            "./HINT",
             "./validate",
+            "README",
+            ".validate.py",
             "14m th3 c0nt3nt 0f f1l3 0n3",
             "Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda"
+          
             ]
 
 lines = f.readlines()
-
+lines.remove("./i\n")
+#print(lines)
 dir1 = False
 dir2 = False
 file11 = False
@@ -50,8 +53,8 @@ c1 = lines.count("14m th3 c0nt3nt 0f f1l3 0n3\n")
 
 c2 = lines.count("Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda\n")
 
-if(len(lines)>14):
-    if (len(set(intended)-set(lines)) == 0):
+if(len(lines)==12):
+    if (len(set(intended)-set(lines)) != 0):
         junk = True
 
 if (not dir1):
@@ -75,10 +78,11 @@ if (dir2 and not file21):
     print("you have to copy file1 to dir2")
 if (dir2 and not file23):
     print("you have to move file3 to dir2")
-if (not junk):
+if (junk):
     print("you have more files than intended. Try deleting some junk")
-if (dir1 and dir2 and file11 and file12 and file23 and file21 and junk):
+if (dir1 and dir2 and file11 and file12 and file23 and file21 and not junk):
     print ("The Room is Ready! Well Done")
+    print("the flag is : \n bu7")
 # else :print(dir1 , dir2 , file11 , file12 , file23 , file21 , junk)
 
 

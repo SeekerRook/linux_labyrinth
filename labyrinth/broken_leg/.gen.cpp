@@ -2,5 +2,5 @@
 using namespace std;
 
 int main(){
- cout << ("NTUA_HACK \n");
+cout << ("Well Done! The flag is :\n 0p3r4t1ng\n");
 }

@@ -21,5 +21,5 @@ while (std::getline(infile, line))
     // process pair (a,b)
 }
 if (count == 172)
-	std::cout << "NTUA_HACK\n";
+	std::cout << "Well Done! The Flag is : \n Sys73ms \n";
 }

@@ -10,5 +10,5 @@ The chain should look like this:
 
 input -> program1 -> program2 -> program3 -> output
 
-then validate using the validator.(Bonus points if you do it with a single command) 
+then run ./validate to test the result .(Bonus points if you do it with a single command) 
 
