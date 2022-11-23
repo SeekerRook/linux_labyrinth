@@ -58,29 +58,29 @@ if(len(lines)==13):
     if (len(set(intended)-set(lines)) != 0):
         junk = False
 
-if (not dir1):
-    print("You have deleted dir1!!! call someone to help you")
+#if (not dir1):
+#    print("You have deleted dir1!!! call someone to help you")
     # exit()
-if (not file11 and not file21):
-    print("You have deleted file1!!! call someone to help you")
+#if (not file11 and not file21):
+#    print("You have deleted file1!!! call someone to help you")
+#    # exit()
+#if (not file11 and file21):
+#    print("you have moved file1 instead of copying it")
+#if (file11 and file12 and c1<2):
+#    print("One copy of file1 is wrong")
+#if (file23 and c2<1):
+#    print("you have corrupted file3. Call someone to help you")
     # exit()
-if (not file11 and file21):
-    print("you have moved file1 instead of copying it")
-if (file11 and file12 and c1<2):
-    print("One copy of file1 is wrong")
-if (file23 and c2<1):
-    print("you have corrupted file3. Call someone to help you")
-    # exit()
-if (dir1 and not file12):
-    print("you have to create file2 in dir1")
-if ( not dir2):
-    print("you have to create dir2")
-if (dir2 and not file21):
-    print("you have to copy file1 to dir2")
-if (dir2 and not file23):
-    print("you have to move file3 to dir2")
-if (junk):
-    print("you have more files than intended. Try deleting some junk")
+#if (dir1 and not file12):
+#    print("you have to create file2 in dir1")
+#if ( not dir2):
+#    print("you have to create dir2")
+#if (dir2 and not file21):
+#    print("you have to copy file1 to dir2")
+#if (dir2 and not file23):
+#    print("you have to move file3 to dir2")
+#if (junk):
+#    print("you have more files than intended. Try deleting some junk")
 if (dir1 and dir2 and file11 and file12 and file23 and file21 and    not junk):
     print ("The Room is Ready! Well Done")
     print ("The flag is")
@@ -96,7 +96,8 @@ if (dir1 and dir2 and file11 and file12 and file23 and file21 and    not junk):
 
     system('rm i')
     print (f.read())
-
+else : 
+    print("Not there yet")
 
 # else :print(dir1 , dir2 , file11 , file12 , file23 , file21 , junk)
 
