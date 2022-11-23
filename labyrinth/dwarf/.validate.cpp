@@ -46,7 +46,7 @@ int main(){
     string res = run ("diff wrong correct > i");
     if (res  == ""){
         cout << "the files are the same\n";
-        cput << "The flag is : \n L1nux\n";
+        cout << "The flag is : \n L1nux\n";
     
     }
     else cout << "the files are not the same\n";
