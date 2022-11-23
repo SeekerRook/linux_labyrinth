@@ -83,6 +83,7 @@ if (junk):
     print("you have more files than intended. Try deleting some junk")
 if (dir1 and dir2 and file11 and file12 and file23 and file21 and    not junk):
     print ("The Room is Ready! Well Done")
+    print ("The flag is")
     hash1 = hash(str(set(intended)))
     hash2 = hash(str(set(lines)))
     import random
