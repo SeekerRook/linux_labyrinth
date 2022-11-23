@@ -35,7 +35,7 @@ copies1 = False
 c1 = 0
 copies2 = False
 c2 =0
-junk = False
+junk = True
 if ("./dir1\n" in lines):
     dir1 = True
 if ("./dir2\n" in lines):
@@ -55,7 +55,7 @@ c2 = lines.count("Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda\n")
 
 if(len(lines)==12):
     if (len(set(intended)-set(lines)) != 0):
-        junk = True
+        junk = False
 
 if (not dir1):
     print("You have deleted dir1!!! call someone to help you")
