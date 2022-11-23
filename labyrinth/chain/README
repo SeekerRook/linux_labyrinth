@@ -8,7 +8,7 @@ Use the output of each program as input for the next.
 
 The chain should look like this:
 
-input -> program1 -> program2 -> program3 -> output
+input -> program1 -> program2 -> program3 -> out
 
 then run ./validate to test the result .(Bonus points if you do it with a single command) 
 
