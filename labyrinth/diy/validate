@@ -93,7 +93,7 @@ if (dir1 and dir2 and file11 and file12 and file23 and file21 and not junk):
     f = open('i','r')
 
     system('rm i')
-    print (f)
+    print (f.read())
 
 
 # else :print(dir1 , dir2 , file11 , file12 , file23 , file21 , junk)
