@@ -7,19 +7,19 @@ f = open('i','r')
 
 system('rm i')
 
-intended = [".",
-            "./dir1",
-            "./dir1/file1",
-            "./dir1/file2",
-            "./dir2",
-            "./dir2/file1",
-            "./dir2/file3",
-            "./.flag",
-            "./README",
-            "./validate",
-            "14m th3 c0nt3nt 0f f1l3 0n3",
-            "14m th3 c0nt3nt 0f f1l3 0n3",
-            "Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda"
+intended = [".\n",
+            "./dir1\n",
+            "./dir1/file1\n",
+            "./dir1/file2\n",
+            "./dir2\n",
+            "./dir2/file1\n",
+            "./dir2/file3\n",
+            "./.flag\n",
+            "./README\n",
+            "./validate\n",
+            "14m th3 c0nt3nt 0f f1l3 0n3\n",
+            "14m th3 c0nt3nt 0f f1l3 0n3\n",
+            "Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda\n`"
           
             ]
 
@@ -81,7 +81,7 @@ if (dir2 and not file23):
     print("you have to move file3 to dir2")
 if (junk):
     print("you have more files than intended. Try deleting some junk")
-if (dir1 and dir2 and file11 and file12 and file23 and file21 and not junk):
+if (dir1 and dir2 and file11 and file12 and file23 and file21 and    not junk):
     print ("The Room is Ready! Well Done")
     hash1 = hash(str(set(intended)))
     hash2 = hash(str(set(lines)))
