@@ -18,6 +18,7 @@ intended = [".",
             "./README",
             "./.flag",
             "14m th3 c0nt3nt 0f f1l3 0n3",
+            "14m th3 c0nt3nt 0f f1l3 0n3",
             "Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda"
           
             ]
@@ -53,7 +54,7 @@ c1 = lines.count("14m th3 c0nt3nt 0f f1l3 0n3\n")
 
 c2 = lines.count("Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda\n")
 
-if(len(lines)==10):
+if(len(lines)==11):
     if (len(set(intended)-set(lines)) != 0):
         junk = False
 
