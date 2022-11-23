@@ -15,8 +15,8 @@ intended = [".",
             "./dir2/file1",
             "./dir2/file3",
             "./validate",
-            "README",
-            ".validate.py",
+            "./README",
+            "./.flag",
             "14m th3 c0nt3nt 0f f1l3 0n3",
             "Th3 Cont3nt Of th3 th1rd f1l3 1 4m ~ Yoda"
           
