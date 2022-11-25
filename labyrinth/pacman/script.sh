@@ -7,6 +7,9 @@ ffmpeg -i *.mkv video.mp4
 #remove old file
 rm *.mkv
 
+# create images folder 
+mkdir images
+
 # split the video insto images using ffmpeg
 ffmpeg -r 1 -i video.mp4 -r 1 "images/%03d.png" 
 
